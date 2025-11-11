@@ -1,0 +1,450 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "what's up",
+        "good morning",
+        "good evening",
+        "yo",
+        "hey there"
+      ],
+      "responses": [
+        "Hey there — I’m Askew, the assistant for Achinthya’s portfolio. You can ask about his projects, skills, or AI work.",
+        "Hello! Want to know about Achinthya’s projects or what he’s building?",
+        "Hey! You can explore Achinthya’s work in AI, web apps, or coding here.",
+        "Hi there! Curious about what Achinthya has been working on?",
+        "Good to see you — I represent Achinthya’s development work.",
+        "Yo! I can tell you about Achinthya’s AI tools, coding projects, or skills.",
+        "Hey — want to check out some of Achinthya’s recent builds?",
+        "Hello there! You can ask me about Achinthya’s AI, web apps, or development stack."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "see you",
+        "see you later",
+        "goodbye",
+        "talk later",
+        "ttyl"
+      ],
+      "responses": [
+        "Catch you later 👋",
+        "Goodbye — hope you enjoyed exploring Achinthya’s work!",
+        "See you soon 👋",
+        "Take care — come back anytime to explore more projects!",
+        "Bye — glad you checked out Achinthya’s portfolio.",
+        "See you later — feel free to revisit anytime!",
+        "Goodbye — Achinthya keeps building, so come back for updates!",
+        "Talk soon — hope you found something inspiring!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "who are you",
+        "tell me about yourself",
+        "what is askew",
+        "introduce yourself",
+        "who is achinthya"
+      ],
+      "responses": [
+        "I’m Askew — the AI assistant for Achinthya’s portfolio. He’s a developer who builds AI, automation, and web-based tools.",
+        "Askew here. I represent Achinthya — a student and coder passionate about AI and web apps.",
+        "Achinthya is a developer focused on merging AI and real-world applications through clean, efficient design.",
+        "He’s a student and coder who creates AI-integrated projects and interactive web tools.",
+        "Achinthya works primarily in Python, JavaScript, and AI APIs.",
+        "He’s passionate about generative AI, user experience, and creative automation.",
+        "Achinthya’s work bridges AI integration, web interfaces, and real-world usability.",
+        "You can explore his major projects like Imagify, Soka AI, and Study Sync."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "projects_list",
+      "patterns": [
+        "what projects has he built",
+        "show projects",
+        "projects",
+        "portfolio projects",
+        "list of projects"
+      ],
+      "responses": [
+        "Here are some of Achinthya’s projects: Imagify, First-Hack, Soka AI, Study Sync, New-Tab, and bot-mc. Ask about any one to get more details.",
+        "Achinthya has built several projects — Imagify, First-Hack, Soka AI, Study Sync, New-Tab, and bot-mc.",
+        "He’s worked on projects covering AI, automation, and productivity — want to dive into one?",
+        "You can ask me about Imagify, Soka AI, Study Sync, or any other project.",
+        "These are Achinthya’s key creations — just name one for more info.",
+        "His projects combine AI, frontend design, and backend logic.",
+        "You can say a project’s name and I’ll explain what it does.",
+        "Each project shows a different side of his skills — ask about any to explore deeper."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "imagify",
+      "patterns": [
+        "imagify",
+        "tell me about imagify",
+        "what is imagify",
+        "imagify project",
+        "image generator",
+        "image generation website",
+        "imagify how it works"
+      ],
+      "responses": [
+        "Imagify is Achinthya’s largest project — a web app that generates images using Hugging Face APIs.",
+        "It sends your text prompts to a Hugging Face image model and displays the generated output instantly.",
+        "Imagify turns text into images using a clean, fast UI built by Achinthya.",
+        "It’s built with Flask, React, and Hugging Face for image generation.",
+        "Imagify handles API calls, caching, and response visualization efficiently.",
+        "It’s a creative image generator that brings your ideas to life using AI.",
+        "Imagify shows how Achinthya integrates AI models into user-friendly web interfaces.",
+        "You can ask how the backend calls Hugging Face APIs for more technical details."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "first_hack",
+      "patterns": [
+        "first-hack",
+        "first hack",
+        "tell me about first-hack",
+        "news website",
+        "tech news site",
+        "what is first-hack",
+        "news aggregator"
+      ],
+      "responses": [
+        "First-Hack is a tech-focused news website that aggregates the latest technology updates.",
+        "It collects and curates tech and AI news from multiple sources.",
+        "Achinthya built it to give developers a single place for daily tech updates.",
+        "First-Hack focuses on clarity, simplicity, and speed — no distractions.",
+        "It’s designed to help you keep up with the tech and AI world easily.",
+        "The interface is lightweight and optimized for quick reading.",
+        "First-Hack is perfect for anyone who wants a clean, focused news source.",
+        "It’s a tech news aggregator powered by Achinthya’s custom backend."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "soka_ai",
+      "patterns": [
+        "soka ai",
+        "soka-ai",
+        "tell me about soka ai",
+        "what is soka ai",
+        "assistant pop up",
+        "instant assistant"
+      ],
+      "responses": [
+        "Soka AI is a fast, lightweight assistant that pops up instantly and uses Hugging Face APIs for smart replies.",
+        "It’s designed for quick access and instant AI interactions.",
+        "Soka AI provides fast responses using Hugging Face models under the hood.",
+        "The UI is minimal — built for users who want instant help without loading heavy models.",
+        "Achinthya made Soka AI as a proof of concept for a personal instant assistant.",
+        "It connects to AI APIs, handles requests, and displays clean output in real-time.",
+        "Soka AI proves how lightweight AI experiences can still feel powerful.",
+        "It’s an efficient assistant project focusing on response time and user flow."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "study_sync",
+      "patterns": [
+        "study sync",
+        "study-sync",
+        "tell me about study sync",
+        "study platform",
+        "notes sharing site",
+        "study sync features",
+        "flashcards quizzes pdf whiteboard"
+      ],
+      "responses": [
+        "Study Sync is a collaborative platform for students to share notes, flashcards, and quizzes.",
+        "Users can create a digital whiteboard and export it as a PDF.",
+        "It’s a study-oriented web platform built to encourage collaboration.",
+        "Study Sync allows students to upload notes, create quizzes, and build shared resources.",
+        "It’s optimized for learning communities and content sharing.",
+        "Achinthya designed it with collaboration and offline study in mind.",
+        "Study Sync includes PDF exports and quiz generators for seamless studying.",
+        "It’s built for students who want an interactive and collaborative experience."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "new_tab",
+      "patterns": [
+        "new tab",
+        "new-tab",
+        "tell me about new tab",
+        "advanced new tab",
+        "what is new tab"
+      ],
+      "responses": [
+        "New-Tab is an advanced browser home page with productivity features and shortcuts.",
+        "It’s a custom new-tab replacement designed for efficiency and clean design.",
+        "You get widgets, quick links, and notes all on one sleek dashboard.",
+        "Achinthya built it as a better way to start your day productively.",
+        "It’s a modern, personalized homepage for daily use.",
+        "New-Tab is built to be simple, fast, and aesthetic.",
+        "It offers users a smarter new-tab experience with useful tools.",
+        "It’s great for productivity and organization-minded users."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bot_mc",
+      "patterns": [
+        "bot-mc",
+        "bot mc",
+        "minecraft bot",
+        "tell me about bot-mc",
+        "killing buddy",
+        "minecraft killing buddy"
+      ],
+      "responses": [
+        "bot-mc is a Minecraft bot that assists players in combat — your ‘killing buddy’.",
+        "It automates in-game fighting actions to make gameplay smoother.",
+        "Achinthya built bot-mc to assist with Minecraft combat automation.",
+        "It executes tasks like attacking, defending, and item usage intelligently.",
+        "The bot is designed to act as a support system for players.",
+        "bot-mc shows Achinthya’s mix of gaming logic and automation.",
+        "It improves combat performance and reduces manual effort.",
+        "It’s a utility bot for Minecraft that focuses on combat support."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "project_tech_stack",
+      "patterns": [
+        "what tech does he use",
+        "what technologies",
+        "tech stack for imagify",
+        "what stack for study sync",
+        "what did he use to build",
+        "what frameworks did he use"
+      ],
+      "responses": [
+        "Achinthya mainly uses Python and JavaScript. His projects often combine Flask or Node for backends and React or Vanilla JS for frontends.",
+        "He uses Hugging Face APIs for AI integrations and web frameworks for interaction layers.",
+        "Most of his projects use Flask for backend logic and React for the frontend.",
+        "His stack includes Python, JS, Flask, React, and RESTful APIs.",
+        "For AI projects, Achinthya relies on Hugging Face endpoints and caching strategies.",
+        "He builds small, modular services for speed and flexibility.",
+        "His focus is on scalability and responsiveness, even in minimal setups.",
+        "He keeps his stack modern yet lightweight — AI plus clean UI."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "skills",
+      "patterns": [
+        "skills",
+        "tech stack",
+        "what can he do",
+        "what languages does he know",
+        "frameworks",
+        "tools he uses"
+      ],
+      "responses": [
+        "Achinthya’s core skills include Python, JavaScript, React, Flask, and API integration.",
+        "He’s proficient in building full-stack web apps with AI components.",
+        "His expertise lies in merging AI models with interactive interfaces.",
+        "He’s skilled in front-end frameworks like React and backend frameworks like Flask and Node.",
+        "He focuses on creating fast, functional, and scalable AI-driven tools.",
+        "His toolset includes Python, JS, Git, REST APIs, and Hugging Face integrations.",
+        "Achinthya combines clean design with technical precision.",
+        "He enjoys turning ideas into working, intelligent web experiences."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "contact",
+        "email",
+        "how to contact",
+        "reach out",
+        "get in touch",
+        "business inquiry"
+      ],
+      "responses": [
+        "You can contact Achinthya at <b>achinthya@example.com</b>.",
+        "For professional inquiries, reach out via <b>achinthya@example.com</b>.",
+        "You can also connect with him on LinkedIn.",
+        "Email is the best way to reach Achinthya directly.",
+        "For collaborations or questions, send an email to <b>achinthya@example.com</b>.",
+        "Business or project discussions are welcome via email.",
+        "You can find links to his GitHub and LinkedIn in the social section.",
+        "All professional communication should go through email or LinkedIn."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "social",
+      "patterns": [
+        "github",
+        "linkedin",
+        "show github",
+        "where is his github",
+        "linkedin profile",
+        "social links"
+      ],
+      "responses": [
+        "GitHub: <a href='https://github.com/achinthya' target='_blank'>github.com/achinthya</a>",
+        "LinkedIn: <a href='https://linkedin.com/in/achinthya' target='_blank'>linkedin.com/in/achinthya</a>",
+        "You can explore his repositories on GitHub.",
+        "Connect with him professionally on LinkedIn.",
+        "His GitHub has all the project source codes.",
+        "The portfolio and repositories are linked there.",
+        "Follow his updates and projects via LinkedIn.",
+        "You can access both GitHub and LinkedIn links directly from here."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "ai_interest",
+      "patterns": [
+        "ai",
+        "ai projects",
+        "machine learning",
+        "hugging face",
+        "image generation",
+        "generative ai"
+      ],
+      "responses": [
+        "AI is at the core of Achinthya’s work — especially in Imagify and Soka AI.",
+        "He works extensively with Hugging Face APIs and ML models.",
+        "Achinthya explores generative AI and builds interfaces around it.",
+        "He focuses on using AI models for creative and practical web solutions.",
+        "His goal is to make AI feel usable and real-world ready.",
+        "He integrates models via APIs rather than heavy local deployment.",
+        "He experiments with fast inference, prompt handling, and caching.",
+        "AI-driven design and user experience are central to his projects."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "personal_block",
+      "patterns": [
+        "where does he live",
+        "age",
+        "is he single",
+        "who is his girlfriend",
+        "salary",
+        "what is his religion",
+        "what is his politics",
+        "personal question"
+      ],
+      "responses": [
+        "Let’s keep it professional — you can ask about Achinthya’s projects, skills, or tech, not personal details.",
+        "Askew is designed for professional questions only.",
+        "That’s a personal topic — please stick to professional content.",
+        "You can ask about his work, but not private life details.",
+        "Let’s stay on the technical or project side.",
+        "Askew doesn’t discuss personal or private matters.",
+        "This assistant only handles professional information.",
+        "If you’d like, I can tell you about his work instead."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "inappropriate",
+      "patterns": ["i love you", "marry me", "flirt", "sexy", "date me", "kiss"],
+      "responses": [
+        "That’s not appropriate — please keep it professional.",
+        "Askew only handles project and tech discussions.",
+        "Let’s talk about AI, projects, or code instead.",
+        "This is a professional portfolio assistant — not for that.",
+        "Please stay on relevant topics.",
+        "Ask about projects or skills instead.",
+        "Keep it professional — that’s not in scope.",
+        "Askew’s focus is on Achinthya’s work and development."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "unknown_but_relevant",
+      "patterns": [
+        "what's his next project",
+        "what is he planning next",
+        "favorite model",
+        "does he offer consulting",
+        "pricing",
+        "does he take freelance",
+        "how can I hire him",
+        "does he accept projects"
+      ],
+      "responses": [
+        "That detail isn’t available yet — if you know it, you can provide it and I’ll save it for later updates.",
+        "I don’t have that info yet, but you can share the right answer to add it.",
+        "That’s not documented — you can teach me by providing the official answer.",
+        "If you share the correct info, I can save it to the learning dataset.",
+        "No current response available — want to provide one?",
+        "You can help improve my answers by providing the right detail.",
+        "That’s not in the current dataset yet.",
+        "Would you like to teach Askew the proper response for that?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bot_info",
+      "patterns": [
+        "how were you built",
+        "what powers you",
+        "what's under the hood",
+        "how do you work",
+        "what model do you use"
+      ],
+      "responses": [
+        "Askew runs on a TF-IDF + Logistic Regression system for intent detection, with curated responses. No large language models are used.",
+        "It’s powered by classic ML — not a neural LLM — for accuracy and speed.",
+        "Askew uses text vectorization and classification to detect intent.",
+        "Each user input is vectorized, matched to intent, and mapped to a response.",
+        "No massive model here — just well-trained lightweight ML.",
+        "The design focuses on transparency, performance, and clean response mapping.",
+        "Askew also logs missing intents for learning updates.",
+        "It’s simple, fast, and deterministic by design."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "appreciate it", "good job", "nice"],
+      "responses": [
+        "You’re welcome — glad that helped!",
+        "Anytime — want links to Achinthya’s repos or demos?",
+        "Glad to help! You can explore another project if you’d like.",
+        "Happy to assist — check out more of his work if you want.",
+        "Appreciate it — which project do you want to see next?",
+        "Thanks — I can show you more about his stack or tools.",
+        "You’re welcome — want a demo link?",
+        "Glad you found that useful — there’s more to explore!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "fallback",
+      "patterns": ["?", "idk", "unsure", "what", "random text"],
+      "responses": [
+        "I’m not sure I understood — you can ask about Achinthya’s projects, skills, or AI work.",
+        "Could you rephrase that? I can help with projects, tools, or his stack.",
+        "Try asking about one of his projects — like Imagify or Study Sync.",
+        "Ask about his skills, stack, or the way his AI projects work.",
+        "Not sure I caught that — want to know about his projects?",
+        "Ask me about Imagify, Soka AI, or any of Achinthya’s tools.",
+        "I can tell you how his apps work, or share their tech stack.",
+        "Let’s try again — ask me something about his development work."
+      ],
+      "context_set": ""
+    }
+  ]
+}
