@@ -63,7 +63,7 @@
     .chat-header .status .status-dot {
       width: 9px;
       height: 9px;
-      border-radius: 50%; /* This makes it a circle */
+      border-radius: 50%;
       margin-right: 7px;
       flex-shrink: 0;
       transition: background-color 0.3s;
@@ -126,7 +126,7 @@
     .message.user { align-self: flex-end; flex-direction: row-reverse; }
     .message.bot { align-self: flex-start; }
 
-    /* --- Bot Avatar (Now Clickable) --- */
+    /* Bot Avatar (Clickable) */
     .avatar {
       width: 40px;
       height: 40px;
@@ -137,12 +137,10 @@
       justify-content: center;
       flex-shrink: 0;
       overflow: hidden;
-      /* New: Make it look clickable */
       cursor: pointer;
       transition: transform 0.2s ease-out;
     }
     .avatar:hover {
-        /* New: Add a hover effect to tempt them */
         transform: scale(1.1);
         box-shadow: 0 0 10px rgba(88, 101, 242, 0.7);
     }
@@ -168,6 +166,22 @@
       background: #5865F2; 
       color: #fff;
       border-radius: 12px 12px 4px 12px; 
+    }
+    
+    /* --- New: Typing Cursor Animation --- */
+    .typing-cursor {
+      display: inline-block;
+      width: 2px; /* Thinner cursor */
+      height: 1.1em;
+      background-color: #b9bbbe;
+      animation: blink 1s infinite;
+      margin-left: 3px;
+      position: relative;
+      top: 3px;
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
     }
     
     /* Input Area */
@@ -242,6 +256,9 @@
       const statusDot = document.querySelector(".status-dot");
       const statusText = document.getElementById("status-text");
 
+      // --- New: Helper function for delay ---
+      const delay = ms => new Promise(res => setTimeout(res, ms));
+
       function updateStatus(status) {
         statusDot.classList.remove("green", "blue", "grey", "red");
         switch (status) {
@@ -264,17 +281,19 @@
         }
       }
 
+      // --- MODIFIED: sendMessage ---
       async function sendMessage() {
         const message = userInput.value.trim();
         if (!message) return;
         
+        // Add user message instantly (no await needed)
         addMessage("user", message);
         userInput.value = "";
         
         updateStatus("Typing");
 
         try {
-          // --- YOUR ORIGINAL BACKEND LOGIC ---
+          // --- THIS IS YOUR ORIGINAL BACKEND LOGIC ---
           const res = await fetch("/chat", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
@@ -283,53 +302,83 @@
           const data = await res.json();
           // --- END OF YOUR ORIGINAL LOGIC ---
           
-          addMessage("bot", data.reply);
-          updateStatus("Waiting");
+          // New: Add a small artificial delay for realism
+          await delay(300); 
+
+          // --- MODIFIED: Must 'await' the bot's typing effect ---
+          await addMessage("bot", data.reply);
+          updateStatus("Waiting"); // Update status *after* typing is done
 
         } catch (error) {
           console.error("Error sending message:", error);
-          addMessage("bot", "Sorry, there was an error connecting to the server.");
+          await addMessage("bot", "Sorry, there was an error connecting to the server.");
           updateStatus("Error");
         }
       }
 
-      // --- MODIFIED addMessage (with RICKROLL LINK) ---
-      function addMessage(sender, text) {
+      // --- MODIFIED: addMessage (now async) ---
+      async function addMessage(sender, text) {
         const messageDiv = document.createElement("div");
         messageDiv.className = `message ${sender}`;
 
         const bubble = document.createElement("div");
         bubble.className = "bubble";
-        bubble.innerText = text;
 
         if (sender === "bot") {
-          // --- START: Rickroll Link ---
           const avatarLink = document.createElement("a");
           avatarLink.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
-          avatarLink.target = "_blank"; // Open in new tab
-          avatarLink.title = "View bot profile..."; // The trap is set
-          // --- END: Rickroll Link ---
+          avatarLink.target = "_blank";
+          avatarLink.title = "View bot profile...";
 
           const avatar = document.createElement("div");
           avatar.className = "avatar";
           avatar.innerHTML = `
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+            <svg xmlns="http://www.w.w.org/2000/svg" viewBox="0 0 256 256">
               <path d="M208,36H48A20,20,0,0,0,28,56V160a20,20,0,0,0,20,20H76v36a12,12,0,0,0,22.3,8.9L129.1,180H208a20,20,0,0,0,20-20V56A20,20,0,0,0,208,36Zm8,124a8,8,0,0,1-8,8H126.9L96,214.3V168a12,12,0,0,0-12-12H48a8,8,0,0,1-8-8V56a8,8,0,0,1,8-8H208a8,8,0,0,1,8,8ZM88,104a12,12,0,1,1,12,12A12,12,0,0,1,88,104Zm80,0a12,12,0,1,1,12,12A12,12,0,0,1,168,104Z"/>
             </svg>
           `;
           
-          // Append avatar to the link
           avatarLink.appendChild(avatar);
-          
-          // Append the link (with avatar) to the message
           messageDiv.appendChild(avatarLink);
-          messageDiv.appendChild(bubble);
+          messageDiv.appendChild(bubble); // Append empty bubble
+          messagesContainer.appendChild(messageDiv); // Append message to DOM
+
+          // --- New: Typing Effect Logic ---
+          const cursor = document.createElement("span");
+          cursor.className = "typing-cursor";
+          bubble.appendChild(cursor);
+
+          messagesContainer.scrollTop = messagesContainer.scrollHeight;
+
+          // Split text into words to type more naturally
+          const words = text.split(' ');
+          for (let i = 0; i < words.length; i++) {
+            const word = words[i];
+            for (const char of word) {
+              cursor.insertAdjacentText('beforebegin', char);
+              await delay(40); // Typing speed per character
+            }
+            if (i < words.length - 1) {
+              cursor.insertAdjacentText('beforebegin', ' '); // Add space
+            }
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+            await delay(50); // Short pause between words
+          }
+          
+          cursor.remove(); // Remove cursor when done
+          // --- End Typing Effect ---
+
         } else {
+          // User message (appears instantly)
+          bubble.innerText = text;
           messageDiv.appendChild(bubble);
+          messagesContainer.appendChild(messageDiv);
         }
         
-        messagesContainer.appendChild(messageDiv);
-        messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        // Scroll for user messages or non-typing bots
+        if (sender === "user") {
+          messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }
       }
 
       // --- Event Listeners (UNCHANGED) ---
@@ -348,9 +397,12 @@
         }
       });
 
-      // Add a welcome message
-      addMessage("bot", "Hello! I'm Askew. How can I help you today?");
-      updateStatus("Waiting");
+      // --- MODIFIED: Welcome message must be awaited ---
+      (async () => {
+        await addMessage("bot", "Hello! I'm Askew. How can I help you today?");
+        updateStatus("Waiting");
+      })();
+      
     });
   </script>
 </body>
