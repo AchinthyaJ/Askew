@@ -656,29 +656,6 @@
         "Achinthya's main technical skills encompass Python, Node.js, full-stack web development, and leveraging AI/ML to create innovative and efficient solutions."
       ],
       "context_set": ""
-    },
-    {
-      "tag": "Project_List",
-      "patterns": [
-        "What projects has Achinthya worked on?",
-        "Can you tell me about Achinthya's projects?",
-        "List Achinthya's main projects.",
-        "What are some examples of his work?",
-        "Show me his portfolio projects.",
-        "What kind of things does Achinthya build?",
-        "Could you describe Achinthya's development portfolio?",
-        "Which projects showcase his skills?",
-        "Tell me about the applications Achinthya has created.",
-        "What's in Achinthya's project showcase?"
-      ],
-      "responses": [
-        "Achinthya has a diverse range of projects! Some key ones include Imagify, an AI image generation website; First-Hack, a tech news aggregator; Soka AI, a fast-launch AI assistant; Study Sync, a collaboration platform; New-Tab, an advanced browser new tab page; and bot-mc, a Minecraft automation bot.",
-        "Certainly! Achinthya's notable projects include Imagify, his most advanced AI image generator; First-Hack, a tech news aggregator; Soka AI, a quick AI assistant; Study Sync, for student collaboration; New-Tab, a customizable new tab page; and bot-mc, a Minecraft utility bot.",
-        "Achinthya's portfolio features projects like Imagify (AI image generation with Hugging Face), First-Hack (tech news aggregation), Soka AI (minimal-latency AI assistant), Study Sync (student platform), New-Tab (productivity browser extension), and bot-mc (Minecraft automation).",
-        "He's built several cool projects! Highlights include Imagify, an AI image generation site; First-Hack, for tech news; Soka AI, a rapid AI assistant; Study Sync, a student collaboration tool; New-Tab, a smart browser new tab; and bot-mc, a Minecraft combat bot.",
-        "Achinthya's projects showcase his versatility: Imagify is an AI image generator, First-Hack keeps you updated on tech, Soka AI offers instant Q&A, Study Sync facilitates group study, New-Tab enhances browser productivity, and bot-mc automates tasks in Minecraft."
-      ],
-      "context_set": ""
     }
   ]
 }
