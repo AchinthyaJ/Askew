@@ -55,3 +55,16 @@ The application will start in debug mode on `http://127.0.0.1:5000`.
 ### 5. Open in Browser
 
 Open your web browser and navigate to [http://127.0.0.1:5000](http://127.0.0.1:5000) to start chatting with Askew!
+
+### Optional : If you want to improve the dataset for training
+
+1. Open your browser and navigate to [https://aistudio.google.com/](https://aistudio.google.com/) and get a free gemini api key.
+
+2. Import that into your environment using the command
+```bash
+export GEMINI_API_KEY='YOUR_GEMINI_API_KEY'
+```
+3. Use gemini to finally generate the patterns and responses using
+```bash
+python askew_trainer.py -q 'your-question-here' -t 'tag-for-the-list-of-responses'
+```

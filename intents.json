@@ -679,6 +679,240 @@
         "Achinthya's projects showcase his versatility: Imagify is an AI image generator, First-Hack keeps you updated on tech, Soka AI offers instant Q&A, Study Sync facilitates group study, New-Tab enhances browser productivity, and bot-mc automates tasks in Minecraft."
       ],
       "context_set": ""
+    },
+    {
+      "tag": "fp",
+      "patterns": [
+        "What was Achinthya's very first project?",
+        "Tell me about his initial coding endeavor.",
+        "What's the first major project Achinthya worked on?",
+        "Can you describe Achinthya's foundational project?",
+        "Which project did Achinthya start with?",
+        "What was his first significant development?",
+        "His earliest project?",
+        "Where did Achinthya begin his project journey?",
+        "Tell me about 'First-Hack'.",
+        "What's the story behind Achinthya's first big project?"
+      ],
+      "responses": [
+        "Achinthya's very first major project was 'First-Hack,' a tech-focused news aggregator. It collects and displays technology news from various sources to keep developers informed.",
+        "The initial project Achinthya built was 'First-Hack.' It's a news aggregator designed to keep users updated on tech trends, built with a Python backend and a simple web frontend.",
+        "'First-Hack' stands out as Achinthya's first significant project. It's a news platform that pulls technology updates, showcasing his early work with web scraping and frontend display.",
+        "His foundational project is 'First-Hack,' a tech news aggregator. It uses a Python backend for data collection and a simple web frontend, highlighting his early steps in full-stack development.",
+        "Achinthya started his project journey with 'First-Hack.' This project functions as a tech news hub, powered by a Python backend for news feeds and a user-friendly web interface.",
+        "The first main project Achinthya developed was 'First-Hack.' It's a news aggregator that uses Python and a web frontend to bring developers the latest in technology news.",
+        "Achinthya's 'First-Hack' project was his introduction to building complete web systems. It's a news aggregator, providing a centralized place for tech information.",
+        "His earliest project, 'First-Hack,' is a tech-focused news aggregator that demonstrates his initial skills in Python backend development and simple web UIs.",
+        "Achinthya began with 'First-Hack,' a project designed to aggregate technology news. It was a key learning experience in integrating backend logic with a frontend interface.",
+        "Delving into 'First-Hack,' it was Achinthya's first major creation—a news aggregator that pulls tech news, showcasing his early knack for practical, problem-solving applications."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "enjoy_lang",
+      "patterns": [
+        "What languages does Achinthya enjoy the most?",
+        "Which programming languages does he prefer using?",
+        "What are Achinthya's favorite coding languages?",
+        "Which languages does Achinthya find most enjoyable to work with?",
+        "Does Achinthya have a preferred language for his projects?",
+        "What programming languages does Achinthya like best?",
+        "Which languages is Achinthya most passionate about?",
+        "What's Achinthya's go-to language for coding?",
+        "In what languages does Achinthya enjoy developing?",
+        "Which technical stacks does he have the most fun with?"
+      ],
+      "responses": [
+        "Achinthya truly enjoys working with Python and Node.js, as they form the core of his AI and web development projects.",
+        "He's most passionate about Python and Node.js, often leveraging them for building innovative tools and AI-driven applications.",
+        "Given his focus on AI and web development, Python and Node.js are where Achinthya finds the most enjoyment in his coding.",
+        "Achinthya thrives using Python for AI/ML and Node.js for efficient web solutions, combining them in many of his creations.",
+        "His primary enjoyment comes from coding in Python and Node.js, especially when integrating AI functionality into user-friendly web experiences.",
+        "Python and Node.js are Achinthya's preferred languages, enabling him to explore creative, technical, and AI-driven projects for fun.",
+        "He particularly enjoys the versatility of Python for AI applications and the robust capabilities of Node.js for backend development.",
+        "Achinthya finds immense satisfaction in crafting solutions with Python and Node.js, which he uses for almost all his hobby projects and experiments."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "current_project",
+      "patterns": [
+        "What's Achinthya working on currently?",
+        "Is Achinthya involved in any new projects?",
+        "What's his latest project?",
+        "What is Achinthya focusing on developing now?",
+        "Any ongoing projects from Achinthya?",
+        "What's the current project Achinthya is busy with?",
+        "What's next for Achinthya's development?",
+        "What's the current focus of his coding?"
+      ],
+      "responses": [
+        "Achinthya is currently focused on enhancing me, Askew! I am the AI chatbot on his portfolio, designed to professionally represent his work and answer questions about his technical skills and projects.",
+        "His primary development focus right now is on refining Askew, this interactive portfolio guide. I help explain his creative, technical, and AI-driven projects.",
+        "I am Achinthya's current project! He built me to serve as his public-facing technical assistant, articulating his projects, skills, and developer philosophy.",
+        "Achinthya is actively working on improving Askew, the AI chatbot you're interacting with. My purpose is to clearly articulate his projects, skills, and coding interests.",
+        "His latest endeavors revolve around Askew, the AI chatbot on his portfolio. It's built to explain his projects, skills, tools, and developer philosophy clearly and professionally.",
+        "The main project Achinthya is engaged with at the moment is Askew, the AI chatbot. I'm here to provide professional insights into his work and technical capabilities."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "learn_next",
+      "patterns": [
+        "What's next for Achinthya's learning?",
+        "What new technologies is Achinthya interested in learning?",
+        "What does Achinthya plan to learn next in coding?",
+        "Does Achinthya have any future learning goals?",
+        "What's on Achinthya's learning roadmap?",
+        "What new skills does Achinthya want to acquire?",
+        "What areas of AI is Achinthya exploring next?",
+        "What's Achinthya's next learning challenge?",
+        "What does Achinthya want to build next?",
+        "What's Achinthya's long-term learning objective?"
+      ],
+      "responses": [
+        "Achinthya is currently focused on making more advanced ML Models and AI solutions.",
+        "His next learning phase involves diving deeper into ML models and artificial intelligence development.",
+        "Achinthya's long-term ambition is to build widely recognized Large Language Models (LLMs).",
+        "He's actively learning and exploring new ways to create powerful ML models and AI.",
+        "A key interest for Achinthya right now is the development of innovative ML Models and AI systems.",
+        "He's dedicated to expanding his expertise in AI, with a particular eye on building impactful LLMs.",
+        "His immediate learning goal is to enhance his skills in creating robust ML Models and AI applications.",
+        "Achinthya aims to master more advanced concepts in AI to achieve his goal of developing recognized LLMs.",
+        "You'll find Achinthya focusing on learning to craft sophisticated ML Models and pushing the boundaries of AI.",
+        "He's on a path to becoming proficient in building LLMs, seeing it as his major long-term development goal."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "code_background",
+      "patterns": [
+        "How did Achinthya begin his coding journey?",
+        "When did Achinthya start coding?",
+        "What was Achinthya's introduction to coding?",
+        "Can you tell me about Achinthya's coding background?",
+        "How long has Achinthya been coding?",
+        "What programming language did Achinthya learn first?",
+        "When did Achinthya get into programming?",
+        "How did Achinthya start out in software development?",
+        "Tell me about Achinthya's initial coding experience.",
+        "What's Achinthya's origin story in coding?"
+      ],
+      "responses": [
+        "Achinthya began coding around three years ago, starting with Python, and has been building projects ever since.",
+        "He started his coding journey about three years ago, initially learning Python.",
+        "Achinthya got into coding approximately three years ago, where he first picked up Python.",
+        "His coding background started roughly three years ago, with Python being his first language.",
+        "Achinthya's introduction to coding was about three years ago when he began learning Python.",
+        "He's been coding for approximately three years, kicking things off by learning Python.",
+        "Achinthya first started coding around three years ago, beginning with Python and then moving on to various projects.",
+        "Around three years ago, Achinthya began his coding path by learning Python.",
+        "His coding journey commenced about three years ago, focusing initially on Python.",
+        "Achinthya's initial foray into coding was with Python, roughly three years ago."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "aiml_history",
+      "patterns": [
+        "When did Achinthya start learning AI?",
+        "How long has he been into Machine Learning?",
+        "What's his AI/ML learning timeline?",
+        "When did he get into artificial intelligence?",
+        "His journey in AI, when did it start?",
+        "How long has Achinthya been studying ML?",
+        "When did he begin his AI studies?",
+        "When did he pick up AI/ML?"
+      ],
+      "responses": [
+        "Achinthya began learning AI and Machine Learning about a month ago.",
+        "He started his journey into AI and ML just recently, approximately one month ago.",
+        "His exploration into AI and Machine Learning commenced around a month back.",
+        "Achinthya has been learning AI and ML for about a month now.",
+        "He initiated his studies in AI and ML within the last month.",
+        "It's been roughly a month since Achinthya started diving into AI and Machine Learning.",
+        "Achinthya's focused learning in AI and ML began approximately one month ago.",
+        "He picked up learning AI and ML about a month ago."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "collaboration",
+      "patterns": [
+        "Does Achinthya work with others on projects?",
+        "Has he collaborated on any development work?",
+        "Is Achinthya open to collaborations?",
+        "Does he partner with other developers?",
+        "What's his approach to teamwork?",
+        "Does he typically work solo or in groups?",
+        "Has Achinthya been part of any group projects?",
+        "Does he have experience collaborating with others?"
+      ],
+      "responses": [
+        "Achinthya has primarily focused on individual projects throughout his development journey, using each as a personal learning experiment.",
+        "His work has largely been an independent pursuit, allowing him to dive deep into exploration and craft refinement.",
+        "Achinthya typically builds and learns independently, rather than collaborating on projects with others.",
+        "He has chosen to work solo on his projects, which allows for focused development and exploration of his ideas.",
+        "While he's been in the field for a while, Achinthya has generally operated independently on his various projects.",
+        "Achinthya's development process emphasizes independent creation and problem-solving."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "longtermgoal",
+      "patterns": [
+        "What's Achinthya's long-term goal as a developer?",
+        "What does he aim to achieve in the long run?",
+        "His ultimate goal as a coder?",
+        "What are Achinthya's long-term development aspirations?",
+        "What's his big picture goal for his coding career?",
+        "What does Achinthya hope to build eventually?",
+        "What's his vision for the future of his projects?",
+        "Can you tell me about Achinthya's developer ambition?",
+        "What's the ultimate objective of his work?",
+        "Where does he see his development journey leading?"
+      ],
+      "responses": [
+        "Achinthya's long-term goal as a developer is to build Large Language Models (LLMs) that are widely recognized.",
+        "He aims to develop LLMs that achieve significant recognition in the broader tech community.",
+        "His aspiration is to create impactful and widely acknowledged Large Language Models.",
+        "Ultimately, Achinthya's objective is to build LLMs that gain widespread recognition.",
+        "He envisions himself contributing widely recognized LLMs to the field.",
+        "Achinthya is focused on the long-term goal of developing highly respected and recognized Large Language Models.",
+        "His ultimate developer ambition is to build LLMs that are globally recognized for their capabilities.",
+        "He seeks to create groundbreaking Large Language Models that achieve widespread acclaim.",
+        "A primary long-term aim for Achinthya is to develop LLMs that are widely respected and adopted.",
+        "His strategic goal is the creation of globally recognized LLMs that make a significant impact."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "deploy_info",
+      "patterns": [
+        "Where does Achinthya deploy his projects?",
+        "What platforms does he use to host his applications?",
+        "How are Achinthya's projects typically deployed?",
+        "Which services does he use for project hosting?",
+        "Where can I find his deployed work online?",
+        "What's Achinthya's deployment strategy?",
+        "Does he use a specific cloud for his projects?",
+        "How does Achinthya get his projects live?",
+        "On what platforms are Achinthya's applications hosted?",
+        "Where are his projects published?"
+      ],
+      "responses": [
+        "Achinthya primarily deploys his projects on Vercel.",
+        "Most of Achinthya's projects are hosted on Vercel.",
+        "His web applications are typically deployed using Vercel.",
+        "You'll find Achinthya's projects, including this portfolio, hosted on Vercel.",
+        "Achinthya utilizes Vercel for deploying most of his work to ensure performance and simplicity.",
+        "Vercel is Achinthya's preferred platform for project deployment.",
+        "For deployment, Achinthya commonly uses Vercel for his projects.",
+        "His deployed projects, including the portfolio itself, are hosted on Vercel.",
+        "Achinthya leverages Vercel to bring his web-based projects to life online.",
+        "Many of his public-facing projects are deployed and accessible via Vercel."
+      ],
+      "context_set": ""
     }
   ]
 }

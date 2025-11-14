@@ -1,7 +1,7 @@
 {
   "intents": [
     {
-      "tag": "greeting",as
+      "tag": "greeting",
       "patterns": [
         "hi",
         "hello",
@@ -598,6 +598,139 @@
         "For sheer complexity and advanced features, Imagify is Achinthya's standout project. It's a comprehensive AI-powered web tool.",
         "Achinthya's most challenging and rewarding project has been Imagify, where he built a user-friendly interface for advanced AI image creation.",
         "The Imagify project is a testament to Achinthya's full-stack capabilities and AI integration skills, making it his most complex undertaking."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "frameworks",
+      "patterns": [
+        "What frameworks does Achinthya use most?",
+        "Which frameworks are Achinthya's favorites?",
+        "What are the primary frameworks Achinthya works with?",
+        "Does Achinthya have a preferred framework?",
+        "What frameworks does he utilize in his projects?",
+        "Can you list the frameworks Achinthya is proficient in?",
+        "Which frameworks does Achinthya rely on for development?",
+        "What are Achinthya's go-to frameworks?",
+        "Which backend or frontend frameworks does he use?",
+        "Tell me about Achinthya's framework preferences."
+      ],
+      "responses": [
+        "Achinthya primarily uses Flask for backend development and React for frontend interfaces. He values their efficiency and flexibility.",
+        "For his projects, Achinthya often leverages Flask and React, focusing on building robust and user-friendly web experiences.",
+        "He has a strong preference for frameworks like Flask and React, which enable him to create clean, performant, and well-designed applications.",
+        "Achinthya's main frameworks include Flask for the backend and React for the frontend, allowing him to develop full-stack solutions.",
+        "You'll frequently see Achinthya working with Flask, Express (Node.js), and React, as they align with his goal of building practical, AI-integrated web applications.",
+        "He's quite comfortable with Flask and React. These frameworks help him bring his creative, technical, and AI-driven projects to life.",
+        "Achinthya's toolkit prominently features Flask and React, chosen for their capability in developing end-to-end systems and user-friendly interfaces.",
+        "When it comes to frameworks, Achinthya gravitates towards Flask and React, which support his emphasis on efficient logic and clean UI.",
+        "He prefers frameworks that facilitate fast prototyping and functional design, such as Flask and React, often integrating them with AI APIs.",
+        "Achinthya's go-to frameworks are Flask and React, which allow him to effectively merge AI functionality into smooth, web-based experiences."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "skills_general",
+      "patterns": [
+        "What kind of tech skills does Achinthya have?",
+        "Can you tell me about Achinthya's technical expertise?",
+        "What are Achinthya's main coding strengths?",
+        "Which programming languages and technologies is Achinthya proficient in?",
+        "What's Achinthya's skill set?",
+        "Tell me about Achinthya's development capabilities.",
+        "What does Achinthya specialize in?",
+        "What are his strongest tech areas?",
+        "Could you list Achinthya's core skills?",
+        "What technologies does he work with?"
+      ],
+      "responses": [
+        "Achinthya's core strengths lie in Python, Node.js, and full-stack web development. He also has significant expertise in Artificial Intelligence and Machine Learning.",
+        "He's proficient in Python and Node.js, with a strong focus on web development, both frontend and backend. AI/ML application is also a key skill.",
+        "Achinthya is skilled in Python, Node.js, and comprehensive web development. His passion also extends to Artificial Intelligence and Machine Learning.",
+        "You'll find Achinthya is very capable with Python, Node.js, and full-stack web development. He particularly enjoys integrating AI/ML models into his projects.",
+        "His technical toolkit includes Python, Node.js, and strong web development skills, covering both frontend and backend. He's also deeply involved with AI and Machine Learning.",
+        "Achinthya specializes in Python, Node.js, and web development, with a notable interest in applying AI and Machine Learning principles to build practical solutions.",
+        "With a solid foundation in Python and Node.js, Achinthya excels in web development (frontend and backend) and has a keen focus on Artificial Intelligence and Machine Learning.",
+        "Achinthya’s primary technical skills are Python, Node.js, web development expertise, and a strong understanding of Artificial Intelligence and Machine Learning concepts.",
+        "He's highly skilled in Python and Node.js, a full-stack web developer, and has significant experience in the AI/ML space, often building integrated applications.",
+        "Achinthya's main technical skills encompass Python, Node.js, full-stack web development, and leveraging AI/ML to create innovative and efficient solutions."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Project_List",
+      "patterns": [
+        "What projects has Achinthya worked on?",
+        "Can you tell me about Achinthya's projects?",
+        "List Achinthya's main projects.",
+        "What are some examples of his work?",
+        "Show me his portfolio projects.",
+        "What kind of things does Achinthya build?",
+        "Could you describe Achinthya's development portfolio?",
+        "Which projects showcase his skills?",
+        "Tell me about the applications Achinthya has created.",
+        "What's in Achinthya's project showcase?"
+      ],
+      "responses": [
+        "Achinthya has a diverse range of projects! Some key ones include Imagify, an AI image generation website; First-Hack, a tech news aggregator; Soka AI, a fast-launch AI assistant; Study Sync, a collaboration platform; New-Tab, an advanced browser new tab page; and bot-mc, a Minecraft automation bot.",
+        "Certainly! Achinthya's notable projects include Imagify, his most advanced AI image generator; First-Hack, a tech news aggregator; Soka AI, a quick AI assistant; Study Sync, for student collaboration; New-Tab, a customizable new tab page; and bot-mc, a Minecraft utility bot.",
+        "Achinthya's portfolio features projects like Imagify (AI image generation with Hugging Face), First-Hack (tech news aggregation), Soka AI (minimal-latency AI assistant), Study Sync (student platform), New-Tab (productivity browser extension), and bot-mc (Minecraft automation).",
+        "He's built several cool projects! Highlights include Imagify, an AI image generation site; First-Hack, for tech news; Soka AI, a rapid AI assistant; Study Sync, a student collaboration tool; New-Tab, a smart browser new tab; and bot-mc, a Minecraft combat bot.",
+        "Achinthya's projects showcase his versatility: Imagify is an AI image generator, First-Hack keeps you updated on tech, Soka AI offers instant Q&A, Study Sync facilitates group study, New-Tab enhances browser productivity, and bot-mc automates tasks in Minecraft."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "fp",
+      "patterns": [
+        "What was Achinthya's very first project?",
+        "Tell me about his initial coding endeavor.",
+        "What's the first major project Achinthya worked on?",
+        "Can you describe Achinthya's foundational project?",
+        "Which project did Achinthya start with?",
+        "What was his first significant development?",
+        "His earliest project?",
+        "Where did Achinthya begin his project journey?",
+        "Tell me about 'First-Hack'.",
+        "What's the story behind Achinthya's first big project?"
+      ],
+      "responses": [
+        "Achinthya's very first major project was 'First-Hack,' a tech-focused news aggregator. It collects and displays technology news from various sources to keep developers informed.",
+        "The initial project Achinthya built was 'First-Hack.' It's a news aggregator designed to keep users updated on tech trends, built with a Python backend and a simple web frontend.",
+        "'First-Hack' stands out as Achinthya's first significant project. It's a news platform that pulls technology updates, showcasing his early work with web scraping and frontend display.",
+        "His foundational project is 'First-Hack,' a tech news aggregator. It uses a Python backend for data collection and a simple web frontend, highlighting his early steps in full-stack development.",
+        "Achinthya started his project journey with 'First-Hack.' This project functions as a tech news hub, powered by a Python backend for news feeds and a user-friendly web interface.",
+        "The first main project Achinthya developed was 'First-Hack.' It's a news aggregator that uses Python and a web frontend to bring developers the latest in technology news.",
+        "Achinthya's 'First-Hack' project was his introduction to building complete web systems. It's a news aggregator, providing a centralized place for tech information.",
+        "His earliest project, 'First-Hack,' is a tech-focused news aggregator that demonstrates his initial skills in Python backend development and simple web UIs.",
+        "Achinthya began with 'First-Hack,' a project designed to aggregate technology news. It was a key learning experience in integrating backend logic with a frontend interface.",
+        "Delving into 'First-Hack,' it was Achinthya's first major creation—a news aggregator that pulls tech news, showcasing his early knack for practical, problem-solving applications."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "enjoy_lang",
+      "patterns": [
+        "What languages does Achinthya enjoy the most?",
+        "Which programming languages does he prefer using?",
+        "What are Achinthya's favorite coding languages?",
+        "Which languages does Achinthya find most enjoyable to work with?",
+        "Does Achinthya have a preferred language for his projects?",
+        "What programming languages does Achinthya like best?",
+        "Which languages is Achinthya most passionate about?",
+        "What's Achinthya's go-to language for coding?",
+        "In what languages does Achinthya enjoy developing?",
+        "Which technical stacks does he have the most fun with?"
+      ],
+      "responses": [
+        "Achinthya truly enjoys working with Python and Node.js, as they form the core of his AI and web development projects.",
+        "He's most passionate about Python and Node.js, often leveraging them for building innovative tools and AI-driven applications.",
+        "Given his focus on AI and web development, Python and Node.js are where Achinthya finds the most enjoyment in his coding.",
+        "Achinthya thrives using Python for AI/ML and Node.js for efficient web solutions, combining them in many of his creations.",
+        "His primary enjoyment comes from coding in Python and Node.js, especially when integrating AI functionality into user-friendly web experiences.",
+        "Python and Node.js are Achinthya's preferred languages, enabling him to explore creative, technical, and AI-driven projects for fun.",
+        "He particularly enjoys the versatility of Python for AI applications and the robust capabilities of Node.js for backend development.",
+        "Achinthya finds immense satisfaction in crafting solutions with Python and Node.js, which he uses for almost all his hobby projects and experiments."
       ],
       "context_set": ""
     }
